@@ -1,3 +1,23 @@
 body {
-  background: blue;
+  background: rgb(239, 240, 170);
+  font-family: sans-serif;
 } 
+
+h1, h2 {
+    font-weight: 100;
+}
+
+nav >ul >li { 
+    background-color: white;
+    color: black;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    size: 800px;
+    text-decoration: underline;
+    padding: 15px;
+    float: right;
+    width: 50px;
+}
+
