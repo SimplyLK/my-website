@@ -2,6 +2,7 @@ body {
   background: rgb(239, 240, 170);
   font-family: sans-serif;
   max-width: 1500px;
+  display: flexbox;
 } 
 
 .text {
