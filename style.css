@@ -112,3 +112,57 @@ footer span{
     margin-right: 50%;
     margin-bottom: 10px;
 }
+
+#contact
+{
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-bottom: 10px;
+}
+
+input[type=text], select, textarea {
+  font-family: sans-serif;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: sans-serif;
+  background-color:teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(221, 230, 230);
+  color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#shop
+{
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-bottom: 10px;
+}
