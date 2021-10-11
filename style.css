@@ -3,13 +3,16 @@ body {
   font-family: sans-serif;
 } 
 
-h1, h2 {
+h1, h2, a{
     font-weight: 100;
 }
 
+nav {
+    size: 800px;
+    float: right;
+    margin: 50px;
+}
 nav >ul >li { 
-    background-color: white;
-    color: black;
     display: inline-block;
     list-style: none;
     text-align: center;
@@ -17,7 +20,42 @@ nav >ul >li {
     size: 800px;
     text-decoration: underline;
     padding: 15px;
-    float: right;
+    float: left;
     width: 50px;
 }
 
+a {
+    color: black;
+    background-color: white;
+    padding: 25px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin: 300px 100px 100px 150px;
+    width: 400px;
+}
+
+div{
+    float: left;
+
+
+}
+.text {
+  background-color: black;
+  color: white;
+  font-size: 3vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
